@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Poppins:wght@400;600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+ :root {
+    --font-family: 'Baloo Bhai 2', cursive;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #644444;
+    --primary-color: #2e335c;
+    --secondary-color: rgba(114, 64, 43, 0.932)5;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+a:hover {
+    color: var(--secondary-color)
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem, 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* nav a */
+
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 100px; */
+    height: 100vh;
+    gap: 2.5rem;
+    max-width: 66rem;
+    margin: auto;
+}
+
+.hero img {
+    height: 15rem;
+    width: 14rem;
+    border-radius: 8rem;
+    z-index: 0.1;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 3px 15px 2px;
+}
+
+.bio h1 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+
+.more-about {
+    background-color: var(--bg-color);
+    padding: 0 100%;
+    /* margin: 100px */
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+
+
+/* .acdemics1 {
+    display: flex;
+    flex-direction: row
+} */
+
+
+/* ----sai----- */
+
+
+/* ---------------1------- */
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* ---------1 complete---- */
+
+
+/* ----2--- */
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt-8 {
+    margin-top: 1rem;
+}
+
+
+/* ---------2 complete */
+
+
+/* ------3-------- */
+
+.subheadings-font {
+    font-family: "Baloo Bhaina 2", cursive;
+}
+
+.text-purple-300 {
+    --tw-text-opacity: 1;
+    color: rgba(196, 181, 253, var(--tw-text-opacity));
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* -----complete 3 */
+
+
+/* -----------4--------- */
+
+.h-8 {
+    height: 2rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.mt-5 {
+    margin-top: 1.25rem;
+}
+
+.ml-3 {
+    margin-left: 0.75rem;
+}
+
+
+/* --------complete 4 */
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.font-medium {
+    font-weight: 700;
+}
+
+
+/* ---sai---//training */
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.h-8 {
+    height: 2rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.ml-3 {
+    margin-left: 0.75rem;
+}
+
+.mt-5 {
+    margin-top: 1.25rem;
+}
+
+.text-lg,
+.text-xl {
+    line-height: 1.75rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.-mb-1 {
+    margin-bottom: -0.25rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+
+/* ----------------- */
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.skill-header {
+    margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+    width: 129px;
+    height: 122px;
+}
+
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    width: 100%;
+}
+
+
+/* -----socisla */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/*  ---scroll*/
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+/* --projects */
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projects-container {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    gap: 14%;
+    margin: auto;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875%;
+    padding: 1rem;
+}
+
+.project-container p {
+    padding: 0.4rem;
+}
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/* __________________media Query------------------- */
+
+@media screen and (max-width:720px) and (min-width:652px) {
+    .socials {
+        position: absolute;
+        top: 26%;
+    }
+    .scroll-up {
+        position: absolute;
+        bottom: -1744px;
+        /* bottom: 10px; */
+    }
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 39px;
+        left: 81%;
+        width: 19%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+    nav ul li {
+        margin: 8px;
+    }
+    .burger-menu {
+        display: block;
+    }
+    nav ul.show {
+        transform: translateX(0);
+    }
+    .hero {
+        margin-top: 0rem;
+        /* flex-direction: column; */
+        gap: 2;
+    }
+    .hero img {
+        height: 8.5rem;
+        width: 8rem;
+    }
+    .bio {
+        margin-top: 0rem;
+        width: 20.5rem;
+    }
+}
+
+@media screen and (max-width:652px) and (min-width:635px) {
+    /* nav {
+        padding: 0rem 1rem;
+        width: 25rem;
+    } */
+    /* .more-about {} */
+    /* .acdemics {
+            width: 10%;
+        } */
+    .hero img {
+        height: 8.5rem;
+        width: 8rem;
+    }
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 40px;
+        width: 42%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        left: 380px;
+    }
+    .socials {
+        position: absolute;
+        top: 26%;
+    }
+    .scroll-up {
+        position: absolute;
+        bottom: -1744px;
+        /* bottom: 10px; */
+    }
+    .burger-menu {
+        display: block;
+    }
+    nav ul.show {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width:634px) and (min-width:532px) {
+    .hero img {
+        height: 8.5rem;
+        width: 8rem;
+    }
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 40px;
+        width: 52%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        left: 48%;
+    }
+    .scroll-up {
+        position: absolute;
+        bottom: -1744px;
+        /* bottom: 10px; */
+    }
+    .burger-menu {
+        display: block;
+    }
+    nav ul.show {
+        transform: translateX(0);
+    }
+    .socials {
+        position: absolute;
+        top: 26%;
+    }
+    /* .projects-container {
+        flex-direction: column;
+    }
+    .project-container {
+        width: 20.875rem;
+    } */
+}
+
+@media screen and (max-width:532px) {
+    .hero img {
+        height: 8.5rem;
+        width: 8rem;
+    }
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 39px;
+        width: 52%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        left: 37%;
+    }
+    .scroll-up {
+        position: absolute;
+        bottom: -1744px;
+        /* bottom: 10px; */
+    }
+    .burger-menu {
+        display: block;
+    }
+    nav ul.show {
+        transform: translateX(0);
+    }
+    .socials {
+        position: absolute;
+        top: 13%;
+    }
+    /* .projects-container {
+        flex-direction: column;
+    }
+    .project-container {
+        width: 20.875rem;
+    } */
+    /* .acdemics {
+        overflow: hidden;
+        width: 10%;
+    } */
+    /* .projects {
+        width: 100%;
+        height: 50%;
+    } */
+    /* footer {
+        position: fixed;
+        top: 100%;
+    } */
+}
