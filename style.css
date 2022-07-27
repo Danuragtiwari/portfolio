@@ -142,7 +142,7 @@ nav ul li {
 } */
 
 
-/* ----sai----- */
+/* ----CCC----- */
 
 
 /* ---------------1------- */
@@ -240,7 +240,7 @@ nav ul li {
 }
 
 
-/* ---sai---//training */
+/* ---CCC---//training */
 
 .mt-8 {
     margin-top: 2rem;
@@ -544,6 +544,9 @@ footer {
         position: absolute;
         top: 26%;
     }
+    .project-container {
+        overflow: hidden;
+    }
     /* .projects-container {
         flex-direction: column;
     }
@@ -582,6 +585,9 @@ footer {
     .socials {
         position: absolute;
         top: 13%;
+    }
+    .project-container {
+        overflow: hidden;
     }
     /* .projects-container {
         flex-direction: column;
