@@ -2,265 +2,227 @@
 <html lang="en">
 
 <head>
-    <link rel="shortcut icon" href="pics.jpg" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Anurag Tiwari 😎</title>
-</head>
-<!-- Navbar -->
-<!-- Hero section -->
-<!-- More About section -->
-<!-- Skills section -->
-<!-- Project section  -->
-<!-- contact section -->
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Anurag Tiwari" />
+    <!-- Keyword Metadata -->
+    <meta name="keywords" content="Anurag Tiwari" />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.jpg" />
+    <!-- Webpage Title -->
+    <title>Anurag Tiwari</title>
 
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
 
 <body>
-    <nav>
-        <!-- id="home" -->
-        <!-- <h1>Anurag Tiwari</h1> -->
-        <img src="pics.jpg" alt="Anurag" style="width:4%;;border-radius:400px;">
-        <ul class="navigation">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-
-        </ul>
-        <button class="burger-menu" id="burger-menu">
-            <ion-icon class="bars" name="menu-outline">
-                
-            </ion-icon>
-        </button>
-    </nav>
-
-    <div>
-        <section class="hero" id="home">
-            <img src="pics.jpg" alt="Anurag" loading="lazy" class="hero-img" />
-            <div class="bio animate__animated animate__shakeX">
-                <h2 class="bio-title" style="text-align: center;">About Me</h2>
-                <!-- <h2 style="text-align:center ;" id="home">About</h2> -->
-                <p class="bio-text" style="text-align: center;">
-                    Web Developer||Coder||ECE GUYS||Exploring Tech.
-                    <button class="btn" style="text-align: center; background-color: rgb(128, 42, 42); "><a href="#"  target="_blank" style="font-weight:900;">View Resume</a></button>
-                </p>
-
+    <div id="particles-js">
+        <div class="header">
+            <h1>
+                <span class="site-title">Anurag Tiwari</span>
+                <span class="site-description">Programmer • Web Developer •  Python Developer</span>
+            </h1>
+            <div class="header-icons">
+                <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/danurag23/">
+                    <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a aria-label="My Github Profile" target="_blank" href="https://github.com/Danuragtiwari">
+                    <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+                </a>
+                <a aria-label="My Résumé" target="_blank" href="">
+                    <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+                </a>
+                <a aria-label="Send Email" href="mailto:www.anuragtiwaritiwari@gmail.com" target="_blank"><i class="icon fa fa-envelope"></i
+          ></a>
             </div>
-
-
-        </section>
+            <div class="header-links">
+                <a class="link" href="#about" data-scroll>About Me</a>
+                <a class="link" href="#projects" data-scroll>Projects</a>
+            </div>
+        </div>
+        <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
 
-    <secion class="more-about" id="about">
-        <h2 style="   text-align: center;">More About Me</h2>
-
-        <div class="flex justify-around flex-wrap">
-            <div class="acdemics mt-8 flex flex-col">
-                <div class="acdemics1" style="display:flex;
-                gap:2rem; justify-content: space-evenly;">
-                    <div class="mt-8">
-                        <h2 class="text-purple-300 text-3xl font-bold subheadings-font ">
-                            <img src="/graduate-cap.jpg" alt="" style="width:50px;height:40px;"> Education
-                        </h2>
-
-
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2"> 👌 CARMEL CONVENT SCHOOL</p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2 ">10th ICSE BOARD (2014-2018) with 83.4% </p>
-
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2"> 👌 MP & EV ENGLISH MEDIUM SCHOOL,GAJUWAKA,VIZAG</p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">12th CBSE BOARD (2018-2020) with 91% </p>
-
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2"> 👌 SLIET,LONGOWOL,PUNJAB </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">B.TECH in ECE(2020-Present) </p>
-
-
-
-                    </div>
-
-
-
-                    <div class="mt-8">
-
-
-                        <h2 class="text-purple-300 text-3xl font-bold subheadings-font ">
-                            <img src="/man-sitting-searching-online-job-with-a-laptop.jpg" style="width: 50px; height:40px"> Experience
-                        </h2>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">👌 Content Writer at Pojo Software Pvt Lmt. </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">From: Dec 2021-Feb 2022
-                        </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">👌 Campus Ambassoder at InterMind </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">From: Oct 2021-Nov 2021
-                        </p>
-                    </div>
-                    <div class="mt-8">
-
-
-                        <h2 class="text-purple-300 text-3xl font-bold subheadings-font ">
-                            <img src="/hobbies.jpg" style="width: 50px; height:40px"> Hobbies
-                        </h2>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">👌 Listening Song. </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">👌 Learning new Things.
-                        </p>
-                        <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">👌 Watching Movies. </p>
-                        <!-- <p class="ml-8 text-base md:text-xl font-nexaBold mb-2">From: Oct 2021-Nov 2021
-                        </p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </secion>
-
-
-
-    <section class="skills">
-        <h2 class="skill-header" id="skills">My Skills</h2>
-        <div class="skill-wrapper">
-            <div class="first-set animate_animated animate__pulse ">
-                <img src="/html.jpg" alt=" html" class="icon icon-card" />
-                <img src="/python.jpg" alt="python" class="icon icon-card" />
-                <img src="/django.jpg" alt="django" class="icon icon-card" />
-                <img src="/js.jpg" alt="js" class="icon icon-card" />
-                <img src="/css.jpg" alt="css" class="icon icon-card" />
-                <img src="/bootstrap.jpg" alt="bootstrap" class="icon icon-card" />
-                <!-- <img src="/git.jpg" alt="git" class="icon icon-card" />
-                <img src="/nodejs.jpg" alt="nodejs" class="icon icon-card" />
-                <img src="/c.jpg" alt="c" class="icon icon-card" /> -->
-            </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">
-        <h2 class="projects-title">Projects </h2>
-        <div class="projects-container" style="display:flex; width:100%;">
-            <div class="project-container project-card">
-                <img src="/project1.jpg" alt="" loading="lazy" class="project-pic" style="width:40px;height:40px;" />
-                <h3 class="projects-title">project1</h3>
-                <p class="project-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis et corporis itaque, laboriosam modi aut minus quia rerum ratione ea tempore! I</p>
-                <a href="#" target="_blank" class="project-link" project-link>Link</a>
-
-            </div>
-            <div class="project-container project-card">
-                <img src="/project1.jpg" alt="" loading="lazy" class="project-pic" style="width:40px;height:40px;" />
-                <h3 class="projects-title">Project2</h3>
-                <p class="project-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis et corporis itaque, laboriosam modi aut minus quia rerum ratione ea tempore! I</p>
-                <a href="#" target="_blank" class="project-link">link</a>
-
-            </div>
-            <div class="project-container project-card">
-                <img src="/project1.jpg" alt=" " loading="lazy" class="project-pic" style="width:40px;height:40px;" />
-                <h3 class="projects-title">Project3</h3>
-                <p class="project-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis et corporis itaque, laboriosam modi aut minus quia rerum ratione ea tempore! I.</p>
-                <a href="#" target="_blank" class="project-link">link</a>
-
-            </div>
-
-        </div>
-        <p style="text-align: center; font-weight: 900;"><a href="https://github.com/Danuragtiwari" target="_blank">View More</a></p>
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section>
-        <footer>
-
-            <p class="copy">
-                Made with ❤️ by
-                <a href="https://www.linkedin.com/in/danurag23/" target="_blank">Anurag Tiwari</a>
+    <!-- About Section -->
+    <section id="about">
+        <!-- User Introduction-->
+        <div class="user-details">
+            <h1>My Story</h1>
+            <picture>
+                <source type="image/webp" srcset="./assets/img/favicon.jpg" alt="Professional Me" width="20%" style="border-radius: 50%" />
+                <img src="./assets/img/favicon.jpg" alt="Professional Me" width="20%" style="border-radius: 50%" />
+            </picture>
+            <p>
+                I am Prefinal Student in Sant Longowal Institute of Engineering and Technology, Longowal, pursuing an undergraduate degree in ECE.I use my software engineering skills for web development and tech consulting.I am interested in exploring the fields of Software
+                Engineering, Web-Dev and I am open to opportunities for the same.Apart from it I have been content writer at Pojo Software Pvt Lmt.
             </p>
-        </footer>
+        </div>
+
+        <!-- User Specifics -->
+        <div class="user">
+            <!-- Technology Stack #1: Languages -->
+            <div class="tech">
+                <h2>Languages</h2>
+                <i class="devicon-python-plain colored"></i>
+                <!-- <i class="devicon-java-plain-wordmark colored"></i> -->
+                <i class="devicon-c-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <p>My favorite languages for programming, and Development.</p>
+            </div>
+
+            <!-- Technology Stack #2: Front-End -->
+            <div class="tech">
+                <h2>Front-End</h2>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <p>My preferred technologies for front-end web development and component design.</p>
+            </div>
+
+            <!-- Technology Stack #3: Back-End -->
+            <div class="tech">
+                <h2>Back-End</h2>
+                <i class="devicon-django-plain colored"></i>
+                <i class="devicon-nodejs-plain colored"></i>
+                <i class="devicon-mysql-plain colored"></i>
+
+
+                <p>My preferred technologies for back-end web programming and database architecture.</p>
+            </div>
+
+            <!-- Technology Stack #4: Tools -->
+            <div class="tech">
+                <h2>Tools</h2>
+                <i class="devicon-git-plain-wordmark colored"></i>
+                <i class="devicon-visualstudio-plain colored"></i>
+                <i class="devicon-github-plain-wordmark colored"></i>
+                <!-- <i class="devicon-postman-plain colored"></i> -->
+                <p>My favorite tools for version control, code editing, and container orchestration.</p>
+            </div>
+        </div>
     </section>
 
-    <i class="scroll-up" id="scroll-up"><img
-      src="scroll to top.jpg"
-      class="socicon up-arrow"
-      alt="scroll-up"
-  /></i>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="user-details">
+            <h1>Featured Projects</h1>
+        </div>
 
+        <!-- User Project #1: Personal Résumé Website -->
+        <div class="user-projects">
+            <div class="images-right">
+                <picture>
+                    <source type="image/webp" srcset="./assets/img/website.png" alt="Personal Website" />
+                    <img alt=" Website" src="../assets/img/website.png" />
+                </picture>
+            </div>
+            <div class="contents" style="text-align: center">
+                <h3>Personal Website</h3>
+                <div>
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg" style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg" style="filter: invert(73%) sepia(74%) saturate(1952%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
 
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg" style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)" /> &nbsp;
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg" style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)" /> &nbsp;
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+                </div>
+                <p style="text-align: justify">
+                    I developed and designed a website , hosted on Github Pages, to showcase my web presence, story, work experience, education, projects, and achievements in an interactive and visually-appealing format.
+                </p>
+                <a class="project-link" target="_blank" href="#">Check it out!</a>
+            </div>
+        </div>
 
+        <!-- User Project #2: ?Tic-Tac game Project -->
+        <div class="user-projects">
+            <div class="images-left">
+                <picture>
+                    <source type="image/png" srcset="./assets/img/tic-tac.png" alt="Tic-Tac game" />
+                    <img alt="Tic-Tac game" src="./assets/img/tic-tac.png" />
+                </picture>
+            </div>
+            <div class="contents-right" style="text-align: center">
+                <h3>TIC-TAC Game</h3>
+                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/django.svg" style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
+                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg" style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
+                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg" style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" /> &nbsp;
+                <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+                <p style="text-align: justify">
+                    I created a two-player online game using Django,html,css for design and hosted on GitHub Pages.
+                </p>
+                <a class="project-link" target="_blank" href="https://github.com/Danuragtiwari/tic-tac-game">Check it out!</a
+          >
+        </div>
+      </div>
 
+      <!-- User Project #3: Quiz -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/jpg" srcset="./assets/img/quiz.jpg" alt="Quiz" />
+            <img alt="Quiz" src="./assets/img/quiz.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Quiz Web</h3>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/django.svg" style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg" style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" /> &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg" style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" /> &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+             
+              I created Quiz app using Django,Javascript,Html,Css for design ,where user create quiz and can enjoy it! and hosted on GitHub Pages .
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Danuragtiwari/tic-tac-game">Check it out!</a
+    >
+  </div>
+        </div>
 
+        <!-- Use Project #4: Python-Projects -->
+        <div class="user-projects">
+            <div class="images-left">
+                <picture>
+                    <source type="image/webp" srcset="./assets/img/Valuto-Account-Management.webp" alt="Youtube-python" />
+                    <img alt="Valuto: Account Management System" src="./assets/img/Valuto-Account-Management.jpg" />
+                </picture>
+            </div>
+            <div class="contents-right" style="text-align: center">
+                <h3>Youtube-python</h3>
+                <div>
+                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/python.svg" style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
+                </div>
+                <p style="text-align: justify">
+                   
+                    In this project user can download youtube video by using python.This project involve many different libraries like customtkinter,tkinter .
+                </p>
+                <a class="project-link" target="_blank" href="https://github.com/Danuragtiwari/youtube_python">
+            Check it out!
+          </a>
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <p>Made with ❤️ Anurag Tiwari &copy; 2022</p>
+    </footer>
 
-    <div class="socials">
-        <a href="https://www.instagram.com/danurag23/" target="_blank"><img src="/insta.jpg" alt="instagram" loading="lazy" class="socicon" /></a>
-        <a href="https://www.buymeacoffee.com/danurag23" target="_blank"><img src="/buy.jpg" alt="coffee" loading="lazy" class="socicon" /></a>
-        <a href="https://www.linkedin.com/in/danurag23/" target="_blank"><img src="/linkedin.jpg" alt="Linkedin" loading="lazy" class="socicon" /></a>
-        <a href="https://github.com/Danuragtiwari" target="_blank"><img src="/github.jpg" alt="Github" class="socicon" /></a>
-
-
-
-    </div>
-
-
-
-
-    <!-- Ion icons scripts -->
-    <script>
-        const scrollUp = document.querySelector("#scroll-up");
-
-        scrollUp.addEventListener("click", () => {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-            });
-        });
-    </script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/9353cc5269.js" crossorigin="anonymous"></script>
-    <script>
-        const burger = document.querySelector("#burger-menu");
-        const ul = document.querySelector("nav ul");
-        const nav = document.querySelector("nav");
-
-        burger.addEventListener("click", () => {
-            ul.classList.toggle("show");
-        });
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach((link) =>
-            link.addEventListener("click", () => {
-                ul.classList.remove("show");
-            })
-        );
-    </script>
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
