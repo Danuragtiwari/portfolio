@@ -210,9 +210,13 @@
     </section>
 
     <footer class="footer">
-        <p>Made with ❤️ Anurag Tiwari &copy; 2023</p>
-    </footer>
+        <p>Made with ❤️ Anurag Tiwari &copy; <span id="currentYear"></span></p>
 
+
+    </footer>
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
     <!-- Import JS: Particles Theme -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!-- Import JS: Sweet Scroll -->
